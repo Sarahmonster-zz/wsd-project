@@ -1,0 +1,78 @@
+body{
+	width: 900px;
+	margin: 0 auto;
+	background-color: #fffaf6;
+}
+
+h1{
+	text-align: center;
+	font-family:'VAG Rounded W01 Bold';
+}
+
+ul li{
+	display: inline;
+	padding: 10px;
+	text-align: center;
+}
+
+ol li{
+	list-style-type: none;
+}
+
+#artist{
+	float: left;
+	padding: 5px;
+}
+
+.gallery{
+	clear: left;
+}
+
+.about{
+	line-height: 2;
+	background-color: #f5c8ee;
+	margin-top: 0;
+}
+
+a:link{
+	color: #fff;
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: none;
+	
+}
+
+a:visited{
+	color: #aa71cb;
+}
+
+
+a:hover{
+	color: #aa71cb;
+}
+
+a:active{
+	color: #fff;
+}
+
+nav{
+	text-align: center;
+	background-color: #f5c8ee;
+	padding: 1px;
+}
+
+aside{
+	-moz-column-count: 2;
+	column-count: 2;
+	background-color: #f5c8ee;
+	padding: 5px;
+	margin: 0;
+}
+
+div{
+	margin: 0;
+}
+
+.gallery img{
+	margin: 0 auto;
+}
