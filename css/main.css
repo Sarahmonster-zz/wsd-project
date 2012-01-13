@@ -4,9 +4,17 @@ body{
 	background-color: #fffaf6;
 }
 
-h1{
+h1, h2, h3, h4, h4, h6{
 	text-align: center;
 	font-family:'VAG Rounded W01 Bold';
+	text-shadow: 4px 3px 1px #d3cfcc;
+}
+
+h2, h3, h4, h4, h6{
+	font-size: 25px;
+	text-align: center;
+	font-family:'VAG Rounded W01 Bold';
+	text-shadow: 4px 3px 1px #d3cfcc;
 }
 
 ul li{
@@ -31,7 +39,6 @@ ol li{
 .about{
 	line-height: 2;
 	background-color: #f5c8ee;
-	margin-top: 0;
 }
 
 a:link{
@@ -43,12 +50,12 @@ a:link{
 }
 
 a:visited{
-	color: #aa71cb;
+	color: #f5c8ee;
 }
 
 
 a:hover{
-	color: #aa71cb;
+	color: #f5c8ee;
 }
 
 a:active{
@@ -57,22 +64,17 @@ a:active{
 
 nav{
 	text-align: center;
-	background-color: #f5c8ee;
+	background-color: #aa71cb;
 	padding: 1px;
 }
 
 aside{
 	-moz-column-count: 2;
 	column-count: 2;
-	background-color: #f5c8ee;
 	padding: 5px;
-	margin: 0;
 }
 
-div{
-	margin: 0;
-}
-
-.gallery img{
-	margin: 0 auto;
+.contact{
+	background-color: #f5c8ee;
+	opacity: 0.5;
 }
