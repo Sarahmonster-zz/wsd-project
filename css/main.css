@@ -2,44 +2,83 @@ body{
 	width: 900px;
 	margin: 0 auto;
 	background-color: #fffaf6;
+	font: 100%/1.5;
 }
 
-h1, h2, h3, h4, h4, h6{
+/*----------------Headings------------*/
+
+h1 {
 	text-align: center;
 	font-family:'VAG Rounded W01 Bold';
 	text-shadow: 4px 3px 1px #d3cfcc;
 }
 
-h2, h3, h4, h4, h6{
-	font-size: 25px;
+h2, h3, h4, h5, h6{
+	font-size: 24px;
 	text-align: center;
 	font-family:'VAG Rounded W01 Bold';
 	text-shadow: 4px 3px 1px #d3cfcc;
+	margin-bottom: -5px;
 }
 
-ul li{
+/*-------------Intro--------------------*/
+
+aside{
+	-moz-column-count: 2;
+	column-count: 2;
+	padding: 5px;
+}
+
+aside li {
+	list-style-type: circle;
+}
+
+/* ------------Navigation---------------- */
+
+nav{
+	text-align: center;
+	background-color: #b878dc;
+	width: 100%; /*900px*/;
+	padding: .111111111111%; /*1px*/;
+	border: 2px solid #aa71cb;
+	border-radius: 5px;
+}
+
+nav li{
 	display: inline;
 	padding: 10px;
 	text-align: center;
-}
-
-ol li{
 	list-style-type: none;
 }
 
-#artist{
-	float: left;
+/*-------------About the Artist------------*/
+
+.about{
+	background-color: #f5c8ee;
+	border: 2px solid #aa71cb;
+	border-radius: 5px;
 	padding: 5px;
 }
+
+.about img{
+	float: left;
+	padding-right: 5px;
+}
+
+/*------------Product Gallery------------------*/
 
 .gallery{
 	clear: left;
 }
 
-.about{
-	line-height: 2;
-	background-color: #f5c8ee;
+.gallery li{
+	float: left;
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 2px;
 }
+
+/*-------------Links--------------------*/
 
 a:link{
 	color: #fff;
@@ -62,19 +101,11 @@ a:active{
 	color: #fff;
 }
 
-nav{
-	text-align: center;
-	background-color: #aa71cb;
-	padding: 1px;
-}
-
-aside{
-	-moz-column-count: 2;
-	column-count: 2;
-	padding: 5px;
-}
+/*--------------Contact Form--------------*/
 
 .contact{
 	background-color: #f5c8ee;
 	opacity: 0.5;
+	border: 2px solid #aa71cb;
+	border-radius: 5px;
 }
