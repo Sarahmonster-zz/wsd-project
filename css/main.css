@@ -126,6 +126,16 @@ footer{
 /* Desktops, laptops, and tablets portrait size */
 @media screen and (min-width: 768px) and (max-width: 899px) {
 
+h1{
+	font-size: 1.4375em; /*23px*/}
+
+h2, h3, h4, h5, h6{
+	font-size: 1.25em; /*20px*/}
+
+a:link{
+	font-size: 1.25em; /*20px*/}
+
+
 }
 
 
@@ -156,7 +166,7 @@ header img{
 	display: none;}
 	
 h1{
-	font-size: 1.25em; /*24px*/}
+	font-size: 1.25em; /*20px*/}
 	
 h2, h3, h4, h5, h6{
 	font-size: 1em; /*16px*/}
