@@ -18,7 +18,7 @@ h1 {
 }
 
 h2, h3, h4, h5, h6{
-	font-size: 1.5em; /*24px*/;
+	font-size: 1.5em; /*24px*/
 	text-align: center;
 	font-family:'VAG Rounded W01 Bold';
 	text-shadow: 4px 3px 1px #d3cfcc;
@@ -47,7 +47,7 @@ nav{
 	text-align: center;
 	background-color: #b878dc;
 	width: 100%; /*900px*/;
-	padding: .111111111111%; /*1px*/;
+	padding: .111111111111%; /*1px*/
 	border-radius: 5px;
 }
 
@@ -123,21 +123,45 @@ footer{
 
 /*--------MEDIA QUERIES------------*/
 
-/* Desktops, laptops, and tablets portrait size*/
-@media screen and (min-width 768px) and (max-width 899px){
-
-.about img{display: none;}
+/* Desktops, laptops, and tablets portrait size */
+@media screen and (min-width: 768px) and (max-width: 899px) {
 
 }
 
-/* Mobile landscape size to tablet portrait size*/
-@media only screen and (min-width 480px) and (max-width 767px){
 
-.header img{display: none;}
+/* Mobile landscape size to tablet portrait size */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+.about img{
+	display: none;}
+
+h1{
+	font-size: 1.375em; /*22px*/}
+
+h2, h3, h4, h5, h6{
+	font-size: 1.125em; /*18px*/}
+
+a:link{
+	font-size: 1.125em; /*18px;*/}
 
 }
 
-/* Mobile portrait size to mobile landscape size*/
-@media only screen and (max-width 479px){
+/* Mobile portrait size to mobile landscape size */
+@media only screen and (max-width: 479px) {
+
+header img{
+	display: none;}
+	
+.about img{
+	display: none;}
+	
+h1{
+	font-size: 1.25em; /*24px*/}
+	
+h2, h3, h4, h5, h6{
+	font-size: 1em; /*16px*/}
+
+a:link{
+	font-size: 1em; /*16px;*/}
 
 }
