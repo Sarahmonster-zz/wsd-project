@@ -22,7 +22,7 @@ h2, h3, h4, h5, h6{
 	text-align: center;
 	font-family:'VAG Rounded W01 Bold';
 	text-shadow: 4px 3px 1px #d3cfcc;
-	margin-bottom: -2px;
+	margin-bottom: -.222222222222%; /*-2px;*/
 }
 
 /*-------------Intro--------------------*/
@@ -44,7 +44,6 @@ nav{
 	background-color: #b878dc;
 	width: 100%; /*900px*/;
 	padding: .111111111111%; /*1px*/;
-	border: 2px solid #aa71cb;
 	border-radius: 5px;
 }
 
@@ -59,7 +58,6 @@ nav li{
 
 .about{
 	background-color: #f5c8ee;
-	border: 2px solid #aa71cb;
 	border-radius: 5px;
 	padding: .555555555556%; /*5px*/
 }
@@ -106,6 +104,12 @@ a:active{
 .contact{
 	background-color: #f5c8ee;
 	opacity: 0.5;
-	border: 2px solid #aa71cb;
 	border-radius: 5px;
+	padding: .555555555556%; /*5px*/
+}
+
+
+/*-------------footer---------------*/
+footer{
+	text-align: center;
 }
