@@ -147,9 +147,28 @@ textarea:focus{
 	background-color: #bfebc5;
 }
 
+/*-------------Contact Table---------------*/
+
+table{
+	margin: 0 auto;
+	border-collapse: collapse;
+	width: 80%;
+}
+
+td{
+	background-color: #f5e1f2;
+	padding: .222222222222%; /*2px;*/
+    border: 1px solid black;
+}
+
+th{
+    border: 1px solid black;
+    background-color: white;
+}
 
 
-/*-------------footer---------------*/
+
+/*-------------Footer---------------*/
 footer{
 	text-align: center;
 }
@@ -210,5 +229,8 @@ a:link{
 aside{
 	-moz-column-count: 1;
 	column-count: 1;
+}
 
+table{
+	width: 90%;
 }
