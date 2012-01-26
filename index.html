@@ -63,7 +63,7 @@
 	
 	
 	<!-- Begin "About" content -->
-	<a name="about"></a> 
+	<a id="about"></a> 
 	
 	<h2> About the Artist </h2>
 	
@@ -88,7 +88,7 @@
 	
 	
 	<!-- Begin "Gallery" content -->
-	<a name="gallery"></a> 
+	<a id="gallery"></a> 
 	
 		<h3> Product Gallery </h3>
 		
@@ -113,7 +113,7 @@
 	
 	
 	<!-- Begin "Tutorial" content -->
-	<a name="tutorial"></a> 
+	<a id="tutorial"></a> 
 	
 	<h4> Product Tutorials </h4>
 	
@@ -142,7 +142,7 @@
 	
 	
 	<!-- Begin "Contact" content -->
-	<a name="contact"></a> 
+	<a id="contact"></a> 
 	
 	<h5> Contact Form </h5>
 	
@@ -152,9 +152,44 @@
 	
 	<!-- Contact form here -->
 	
-	</div>
+	<form method="post" action="mailto:sarahmonster@fullsail.edu">
+	
+	
+		<label for="full_name">Full Name:</label> <br>
+		<input type="text" name="full_name" id="full_name" />
+	<br>
+	
+	
+		<label for="e-mail">E-mail:</label><br>
+		<input type="text" name="e-mail" id="e-mail" />
+	<br>
+	
+	
+		<label for="contact_reason">Reason for Contacting:</label><br>
+		<select name="contact_reason" id="contact_reason">
+		<option>General Question</option>
+		<option>Custom Order</option>
+		<option>Problem with site</option>
+		<option>Pricing</option>
+		<option>Other</option>
+		</select>
+	<br>
+	
+	
+	
+		<label for="message">Message:</label><br>
+		<textarea rows="7" cols="30" name="message" id="message"></textarea>
+	<br>
+	
+	
+		<button type="submit" name="submit" class="button">Send</button>
+	
+	</form>
+	
 	
 	<!-- END "Contact" content -->
+	
+		</div>
 	
 	<footer>
 	

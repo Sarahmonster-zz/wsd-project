@@ -2,7 +2,8 @@ body{
 	max-width: 900px;
 	margin: 0 auto;
 	background-color: #fffaf6;
-	font: 100%/1.5;
+	font-size: 100%;
+	line-height: 1.3;
 }
 
 p{
@@ -46,7 +47,7 @@ aside li {
 nav{
 	text-align: center;
 	background-color: #b878dc;
-	width: 100%; /*900px*/;
+	width: 100%; /*900px*/
 	padding: .111111111111%; /*1px*/
 	border-radius: 5px;
 }
@@ -110,11 +111,35 @@ a:active{
 /*--------------Contact Form--------------*/
 
 .contact{
+	margin: 0 auto;
 	background-color: #f5c8ee;
-	opacity: 0.5;
 	border-radius: 5px;
 	padding: .555555555556%; /*5px*/
+	text-align: center;
 }
+
+form{
+	margin: 0 auto;
+	text-align: center;
+}
+
+input{
+	margin: .222222222222%; /*2px;*/
+}
+
+input:focus{
+	background-color: #bfebc5;
+}
+
+textarea{
+	margin: .222222222222%; /*2px;*/
+}
+
+textarea:focus{
+	background-color: #bfebc5;
+}
+
+
 
 /*-------------footer---------------*/
 footer{
@@ -166,12 +191,16 @@ header img{
 	display: none;}
 	
 h1{
-	font-size: 1.25em; /*20px*/}
-	
+	font-size: 1.375em; /*22px*/}
+
 h2, h3, h4, h5, h6{
-	font-size: 1em; /*16px*/}
+	font-size: 1.125em; /*18px*/}
 
 a:link{
 	font-size: 1em; /*16px;*/}
+	
+aside{
+	-moz-column-count: 1;
+	column-count: 1;
 
 }
